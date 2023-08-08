@@ -19,5 +19,5 @@ from django.urls import path, include  # Make sure to import 'include'
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('ff/', include('films.urls')),  # Remove the leading slash from 'ff'
+    path('ff_updated/', include('films.urls')),  # Remove the leading slash from 'ff'
 ]
